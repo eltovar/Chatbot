@@ -1,6 +1,6 @@
 # Chatbot
 ﻿
-• Descripción del proyecto: Explica de forma concisa qué hace el proyecto, cuál es su propósito y qué problemas resuelve.
+• Descripción del proyecto
 • Instalación: Describe los pasos necesarios para instalar y configurar el proyecto.
 Uso: Proporciona ejemplos de cómo utilizar el proyecto y explica las funcionalidades principales.
 • Contribución: Indica cómo otros pueden contribuir al proyecto (reportar errores, proponer mejoras, enviar código, etc.).
