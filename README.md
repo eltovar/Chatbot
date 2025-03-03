@@ -1,5 +1,5 @@
 # Chatbot
-﻿1.2	Justificación del Proyecto
+﻿Descripcion del proyecto:
 
 Este proyecto se basa en la necesidad de optimizar el proceso de atención al cliente en Glamping Brillo de Luna, una empresa de hospedaje campestre en Guatavita, Cundinamarca. La interacción con los potenciales clientes a través de WhatsApp ha generado una carga de trabajo considerable para el dueño del negocio, quien dedica una gran cantidad de tiempo en responder preguntas repetitivas sobre precios, disponibilidad y actividades. Preguntas que son las mismas cuyas repuestas son las mismas. Esta situación afecta la eficiencia operativa del negocio, ya que el personal administrativo se ve obligado a ocuparse de tareas repetitivas en lugar de concentrarse en asuntos más estratégicos para el beneficio de la empresa.
  
@@ -96,3 +96,11 @@ RNF020. El sistema deberá incluir la compatibilidad con diferentes dispositivos
 RNF021. El sistema deberá proporcionar al dueño del Glamping la capacidad de personalizar las respuestas automáticas según las necesidades específicas de cada cliente o situación.
 RNF022. El sistema deberá implementar una app para los administradores.
 RNF023. El sistema deberá mostrarse solo para administradores con usuario y contraseña.
+
+
+
+REALIZADO POR:
+Miguel Ángel Rico Estrada
+Carlos Julián Martín Ramírez
+Salomé Tovar Hurtado
+
