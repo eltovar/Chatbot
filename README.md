@@ -1,13 +1,9 @@
 # Chatbot
-﻿
-• Descripción del proyecto
-• Instalación: Describe los pasos necesarios para instalar y configurar el proyecto.
-Uso: Proporciona ejemplos de cómo utilizar el proyecto y explica las funcionalidades principales.
-• Contribución: Indica cómo otros pueden contribuir al proyecto (reportar errores, proponer mejoras, enviar código, etc.).
-Licencia: Especifica la licencia bajo la cual se distribuye el proyecto.
-• Créditos: Reconoce a los colaboradores y a las personas que han contribuido al proyecto.
-Tabla de contenidos: Si el README es extenso, incluye una tabla de contenidos para facilitar la navegación.
+﻿1.2	Justificación del Proyecto
 
+Este proyecto se basa en la necesidad de optimizar el proceso de atención al cliente en Glamping Brillo de Luna, una empresa de hospedaje campestre en Guatavita, Cundinamarca. La interacción con los potenciales clientes a través de WhatsApp ha generado una carga de trabajo considerable para el dueño del negocio, quien dedica una gran cantidad de tiempo en responder preguntas repetitivas sobre precios, disponibilidad y actividades. Preguntas que son las mismas cuyas repuestas son las mismas. Esta situación afecta la eficiencia operativa del negocio, ya que el personal administrativo se ve obligado a ocuparse de tareas repetitivas en lugar de concentrarse en asuntos más estratégicos para el beneficio de la empresa.
+ 
+El proyecto que proponemos es dar una solución a este problema mediante la implementación de un sistema de respuestas automáticas basado en un modelo de lenguaje entrenado (machine learning) específicamente para responder preguntas relacionadas con la estadía en el glamping. La disponibilidad de datos de entrenamiento, que incluyen conversaciones previas con potenciales clientes, proporciona una base sólida para el desarrollo de este sistema. La automatización de las conversaciones por WhatsApp permitirá mejorar la experiencia del cliente al brindar respuestas rápidas y precisas en todo momento.
 
 
 REQUERIMIENTOS FUNCIONALES ORDENADOS 
