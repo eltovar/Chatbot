@@ -141,7 +141,7 @@ Sprint Retrospective (Retrospectiva del Sprint)
 
 
 REALIZADO POR:
-Miguel Ángel Rico Estrada
-Carlos Julián Martín Ramírez
+Miguel Ángel Rico Estrada -
+Carlos Julián Martín Ramírez -
 Salomé Tovar Hurtado
 
