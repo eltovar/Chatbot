@@ -1,4 +1,15 @@
 # Chatbot
+﻿
+• Descripción del proyecto: Explica de forma concisa qué hace el proyecto, cuál es su propósito y qué problemas resuelve.
+• Instalación: Describe los pasos necesarios para instalar y configurar el proyecto.
+Uso: Proporciona ejemplos de cómo utilizar el proyecto y explica las funcionalidades principales.
+• Contribución: Indica cómo otros pueden contribuir al proyecto (reportar errores, proponer mejoras, enviar código, etc.).
+Licencia: Especifica la licencia bajo la cual se distribuye el proyecto.
+• Créditos: Reconoce a los colaboradores y a las personas que han contribuido al proyecto.
+Tabla de contenidos: Si el README es extenso, incluye una tabla de contenidos para facilitar la navegación.
+
+
+
 REQUERIMIENTOS FUNCIONALES ORDENADOS 
 RF001. El sistema deberá permitir al usuario preguntar algo sobre  para previamente obtener una respuesta. 
 RF002. El sistema deberá permitir que el usuario se comunique  por vía WhatsApp. 
