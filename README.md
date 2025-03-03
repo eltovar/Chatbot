@@ -97,6 +97,47 @@ RNF021. El sistema deberá proporcionar al dueño del Glamping la capacidad de p
 RNF022. El sistema deberá implementar una app para los administradores.
 RNF023. El sistema deberá mostrarse solo para administradores con usuario y contraseña.
 
+**Scrum del proyecto**
+
+*1. Roles en Scrum*
+
+Product Owner (Dueño del Producto)  
+- Salome Tovar.  
+- Es responsable de definir las características del producto, gestionar la lista de tareas
+(Product Backlog) y priorizar qué debe desarrollarse.  
+- Su objetivo es asegurar que el producto entregue el mayor valor posible al negocio y a los usuarios.  
+
+Scrum Master
+- Miguel Rico.  
+- Es el facilitador del equipo, asegurando que se sigan los principios de Scrum.  
+- Elimina obstáculos, ayuda a mejorar la comunicación y optimiza el proceso de desarrollo.  
+
+Development Team (Equipo de Desarrollo) 
+- Salome Tovar, Carlos Msrín y Miguel Rico.  
+- Son los encargados de transformar los requisitos del Product Backlog en incrementos funcionales del producto.  
+- Trabajan de manera colaborativa en cada sprint.  
+
+
+*2. Eventos en Scrum*
+
+Sprint Planning Meeting (Reunión de Planificación del Sprint)
+- TEAM.  
+- Es el evento donde el equipo selecciona qué tareas del Product Backlog se desarrollarán en el siguiente sprint.  
+- Se definen objetivos claros para la iteración.  
+
+Sprint (Ciclo de Desarrollo)   
+- Cada sprint dura 15 dias.
+- Durante el sprint, el equipo desarrolla y prueba las funcionalidades acordadas en la planificación.  
+
+Sprint Retrospective (Retrospectiva del Sprint) 
+- Se lleva a cabo al final de cada sprint para evaluar lo que funcionó bien, lo que se puede mejorar y definir acciones para el próximo sprint.  
+
+
+*3. Entrega del Producto*
+
+- El resultado del proceso de desarrollo es un Producto.  
+- El equipo de Scrum entrega incrementos funcionales después de cada sprint, asegurando mejoras constantes.
+
 
 
 REALIZADO POR:
