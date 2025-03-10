@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .mobile-container {
+            width: 320px;
+            height: 600px;
+            background: #fff;
+            border-radius: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .panel {
+            width: 100%;
+            text-align: center;
+        }
+        .button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+        .panel img {
+            width: 80px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .history-container, .chat-container, .tokens-container {
+            width: 100%;
+            height: 200px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow-y: auto;
+            margin-top: 10px;
+            padding: 10px;
+            background: #f9f9f9;
+            display: none;
+        }
+        .chatbox {
+            height: 100px;
+            overflow-y: auto;
+        }
+        .input-container {
+            display: flex;
+            margin-top: 10px;
+        }
+        .input-container input {
+            flex: 1;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .input-container button {
+            padding: 5px 10px;
+            border: none;
+            background: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function showHistory() {
+            document.getElementById("history-container").style.display = "block";
+            document.getElementById("chat-container").style.display = "none";
+            document.getElementById("tokens-container").style.display = "none";
+            document.getElementById("history-container").innerHTML = "<strong>Historial de Registro:</strong><br>" +
+                "Bogotá: Juan Pérez, María Gómez<br>" +
+                "Medellín: Carlos López, Ana Ramírez<br>" +
+                "Cali: Pedro Sánchez, Luisa Fernández<br>" +
+                "Barranquilla: Andrés Torres, Sofía Méndez";
+        }
+
+        function showChatbot() {
+            document.getElementById("chat-container").style.display = "block";
+            document.getElementById("history-container").style.display = "none";
+            document.getElementById("tokens-container").style.display = "none";
+        }
+
+        function showTokens() {
+            document.getElementById("tokens-container").style.display = "block";
+            document.getElementById("history-container").style.display = "none";
+            document.getElementById("chat-container").style.display = "none";
+            document.getElementById("tokens-container").innerHTML = "<strong>Mensajes al Administrador:</strong><br>" +
+                "Juan Pérez: Necesito soporte técnico<br>" +
+                "María Gómez: Cambio de contraseña<br>" +
+                "Carlos López: Solicitud de actualización de datos";
+        }
+
+        function sendMessage() {
+            var input = document.getElementById("userInput");
+            var message = input.value;
+            if (message.trim() === "") return;
+
+            var chatbox = document.getElementById("chatbox");
+            var userMessage = document.createElement("div");
+            userMessage.textContent = "Tú: " + message;
+            chatbox.appendChild(userMessage);
+
+            var botMessage = document.createElement("div");
+            botMessage.textContent = "Bot: Hola, ¿cómo puedo ayudarte?";
+            chatbox.appendChild(botMessage);
+
+            input.value = "";
+            chatbox.scrollTop = chatbox.scrollHeight;
+        }
+    </script>
+</head>
+<body>
+    <div class="mobile-container">
+        <div class="panel">
+            <img src="images.png">
+            <h2>Panel de Control</h2>
+            <button class="button" onclick="showHistory()">Historial</button>
+            <button class="button" onclick="showChatbot()">Chatbot</button>
+            <button class="button" onclick="showTokens()">Mensajes al Administrador</button>
+            <div id="history-container" class="history-container"></div>
+            <div id="chat-container" class="chat-container">
+                <div class="chatbox" id="chatbox"></div>
+                <div class="input-container">
+                    <input type="text" id="userInput" placeholder="Escribe un mensaje...">
+                    <button onclick="sendMessage()">Enviar</button>
+                </div>
+            </div>
+            <div id="tokens-container" class="tokens-container"></div>
+        </div>
+    </div>
+</body>
+</html>
